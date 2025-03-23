@@ -15,7 +15,7 @@ ruby-mmapio solves these problems by being written in C.
 
 ### Note
 
-ruby-mmapio 0.1.0 is currently under development.
+ruby-mmapio 0.2.0 is currently under development.
 At this time, interrupt handling has not been tested.
 
 
@@ -42,17 +42,17 @@ shell$ cd ruby-mmapio
 shell$ gem build mmapio.gemspec
   Successfully built RubyGem
   Name: mmapio
-  Version: 0.1.0
-  File: mmapio-0.1.0.gem
+  Version: 0.2.0
+  File: mmapio-0.2.0.gem
 ```
 
 #### 4. Install mmapio gem
 
 ```console
-shell$ sudo gem install mmapio-0.1.0.gem 
+shell$ sudo gem install mmapio-0.2.0.gem 
 Building native extensions. This could take a while...
-Successfully installed mmapio-0.1.0
-Parsing documentation for mmapio-0.1.0
+Successfully installed mmapio-0.2.0
+Parsing documentation for mmapio-0.2.0
 Done installing documentation for mmapio after 2 seconds
 1 gem installed
 ```

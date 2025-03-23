@@ -15,5 +15,6 @@ module MMapIO
     PROT_READ  = 0x1
     PROT_WRITE = 0x2
     MAP_SHARED = 0x1
+    MAP_FAILED = -1
   end
 end

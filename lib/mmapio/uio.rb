@@ -132,6 +132,9 @@ module MMapIO
                                   System::MAP_SHARED,
                                   @device_file.fileno,
                                   index*page_size)
+        if memmap.to_i == System::MAP_FAILED then
+          raise RuntimeError, "mmap failed (device=#{@device_name},index=#{index},size=#{map_size})"
+        end
         memmap_info = {memmap: memmap, size: mmap_size, addr: mmap_addr, offset: mmap_offset}
         ## puts(memmap_info)
         @memmap_dict[index] = memmap_info
