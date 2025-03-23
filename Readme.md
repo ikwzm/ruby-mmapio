@@ -13,6 +13,12 @@ For example, if you try to read a 32-bit word using the read method of the mmap 
 
 ruby-mmapio solves these problems by being written in C.
 
+### Note
+
+ruby-mmapio 0.1.0 is currently under development.
+At this time, interrupt handling has not been tested.
+
+
 Installation
 ----------------------------------------------------------------------------------
 
